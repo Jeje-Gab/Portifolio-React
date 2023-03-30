@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.prof {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img-prof {
+    overflow: hidden;
+    max-height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: 30px;
+    
+}
+
+img {
+    width: 180px;
+    transform: translateY(-20%);
+}
+
+.prof-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.prof-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof-info h1 {
+    width: 100%;
+    text-align: center;
+}
