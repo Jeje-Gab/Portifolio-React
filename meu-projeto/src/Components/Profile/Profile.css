@@ -37,7 +37,9 @@ img {
     justify-content: center;
 }
 
-.prof-info h1 {
+.prof-info h1,
+.prof-info h2,
+.prof-info p {
     width: 100%;
     text-align: center;
 }
