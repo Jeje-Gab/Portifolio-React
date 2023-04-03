@@ -43,3 +43,9 @@ img {
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 990px) {
+    .prof {
+        justify-content: center;
+    }
+}

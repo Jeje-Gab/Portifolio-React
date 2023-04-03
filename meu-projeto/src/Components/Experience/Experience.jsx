@@ -3,9 +3,9 @@ import './Experience.css'
 
 function Experience() {
   return (
-    <div className="prof space">
+    <div className="ItensExp space">
       <div>
-        <div>
+        <div className="BoxExp">
             <div className="Exp">
                 <p>2021-2021 </p>
                 <p>Controller LTDA</p>

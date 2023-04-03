@@ -1,0 +1,20 @@
+.ItensExp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItensExp > div {
+    text-align: center;
+}
+
+.BoxExp {
+
+}
+
+.Exp {
+    margin-top: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
