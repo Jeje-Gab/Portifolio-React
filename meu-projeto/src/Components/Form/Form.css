@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+form div span,
+form div input,
+form div textarea {
+  width: 100%;
+}
+
+
+

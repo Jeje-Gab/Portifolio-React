@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.BoxSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Skills {
+  width: auto;
+  display: block;
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 100%;
+  align-items: center;
+}
