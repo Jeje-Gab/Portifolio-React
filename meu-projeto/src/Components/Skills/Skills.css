@@ -6,7 +6,7 @@
 .BoxSkills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .Skills {
@@ -16,4 +16,33 @@
   max-height: 30px;
   border-radius: 100%;
   align-items: center;
+  margin: 0 15px;
+}
+
+.Skills > img,
+.Skills > svg {
+  width: 30px;
+  height: 30px;
+  transform: translate(0);
+}
+
+.JS svg{
+  background-color: black;
+  color: #f0db4f;
+}
+
+.CSS3 svg{
+  color: #264de4;
+} 
+
+.HTML5 svg {
+  color: #e34c26;
+}
+
+.Sass svg {
+  color: #cc6699;
+}
+
+.Oracle svg {
+  color: #f80000;
 }
