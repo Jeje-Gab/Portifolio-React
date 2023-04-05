@@ -7,6 +7,9 @@ import { SiCss3 } from 'react-icons/si'
 import { SiHtml5 } from 'react-icons/si'
 import { IoLogoSass } from 'react-icons/io'
 import { GrOracle } from 'react-icons/gr'
+import { SiDotnet } from 'react-icons/si'
+import { SiMysql } from 'react-icons/si'
+import { TbBrandCSharp } from 'react-icons/tb'
 
 function Skills() {
   return (
@@ -28,8 +31,15 @@ function Skills() {
           <div className="Skills Oracle">
             <GrOracle />
           </div>
-          <div className="Skills">.NET</div>
-          <div className="Skills">PL/SQL</div>
+          <div className="Skills dotNET">
+            <SiDotnet/>
+          </div>
+          <div className="Skills mySQL">
+            <SiMysql/>
+          </div>
+          <div className="Skills CSharp">
+            <TbBrandCSharp/>
+          </div>
         </div>
       </div>
     </div>

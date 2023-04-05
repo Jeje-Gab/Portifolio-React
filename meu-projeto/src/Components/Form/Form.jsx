@@ -5,6 +5,9 @@ function Form() {
   return (
     <div className="ItensForm space">
       <form action="">
+        <div className="titleForm">
+          <h1>Contate-me</h1>
+        </div>
         <div>
           <span></span>
           <input type="text" />
