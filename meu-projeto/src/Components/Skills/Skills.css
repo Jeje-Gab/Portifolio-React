@@ -9,6 +9,33 @@
   justify-content: center;
 }
 
+.ItensSkills h1 {
+  text-align: center;
+}
+
+.ItensSkills summary::marker{
+  color: transparent;
+}
+
+.ItensSkills summary {
+  position: relative;
+  color: #7872E6;
+}
+
+.ItensSkills summary::before{
+  content: '+';
+  position: absolute;
+  font-size: 20px;
+  right: 0;
+  font-weight: 700;
+  transform: translate(50%,50%);
+}
+
+
+details[open] > summary:first-of-type {
+  
+}
+
 .Skills {
   width: auto;
   display: block;
@@ -51,6 +78,19 @@
   color: #00758F;
 }
 
+.CSharp {
+  position: relative;
+}
+
 .CSharp svg {
   color: #6500d0;
+}
+
+.CSharp span {
+  display: none;
+  position: absolute;
+}
+
+.CSharp:hover span {
+  display: block;
 }
