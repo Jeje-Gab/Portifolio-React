@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.F_FixWpp {
+    position: relative;
+}
+
+.FixWpp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.FixWpp {
+    border-radius: 100%;
+    padding: 10px;
+    line-height: 0;
+}
+.FixWpp > svg {
+    color: #25D366;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.FixWpp::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background-color: #fff;
+}
