@@ -1,0 +1,22 @@
+.ItensCollege {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.TitleCollege h1{
+  color: #7872E6;
+}
+
+
+.BoxCollege {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.BoxCollege div {
+  width: 100%;
+  margin: 10px 0;
+}

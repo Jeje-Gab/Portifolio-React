@@ -31,5 +31,7 @@ ul li a {
   align-items: center;
 }
 .navbar {
-  background-color: brown;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
