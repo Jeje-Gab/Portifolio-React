@@ -16,38 +16,34 @@ function Skills() {
     <section className="" id="skills">
       <div className="ItensSkills space">
         <div>
-          <details>
-            <summary>
-              <h1>Skills</h1>
-            </summary>
-            <div className="BoxSkills">
-              <div className="Skills JS">
-                <IoLogoJavascript />
-              </div>
-              <div className="Skills CSS3">
-                <SiCss3/>
-              </div>
-              <div className="Skills HTML5">
-                <SiHtml5/>
-              </div>
-              <div className="Skills Sass">
-                <IoLogoSass/>
-              </div>
-              <div className="Skills Oracle">
-                <GrOracle />
-              </div>
-              <div className="Skills dotNET">
-                <SiDotnet/>
-              </div>
-              <div className="Skills mySQL">
-                <SiMysql/>
-              </div>
-              <div className="Skills CSharp">
-                <span>C#</span>
-                <TbBrandCSharp/>
-              </div>
+          <h1>Skills</h1>
+          <div className="BoxSkills">
+            <div className="Skills JS">
+              <IoLogoJavascript />
             </div>
-          </details>
+            <div className="Skills CSS3">
+              <SiCss3/>
+            </div>
+            <div className="Skills HTML5">
+              <SiHtml5/>
+            </div>
+            <div className="Skills Sass">
+              <IoLogoSass/>
+            </div>
+            <div className="Skills Oracle">
+              <GrOracle />
+            </div>
+            <div className="Skills dotNET">
+              <SiDotnet/>
+            </div>
+            <div className="Skills mySQL">
+              <SiMysql/>
+            </div>
+            <div className="Skills CSharp">
+              <span>C#</span>
+              <TbBrandCSharp/>
+            </div>
+          </div>
         </div>
       </div>
     </section>

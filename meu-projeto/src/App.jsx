@@ -46,7 +46,6 @@ function App() {
     <div className="container">
       <Navbar />
       <Profile />
-      {/*Todos devem estar dentro da div*/}
       <Experience/>
       <Skills/>
       <College/>

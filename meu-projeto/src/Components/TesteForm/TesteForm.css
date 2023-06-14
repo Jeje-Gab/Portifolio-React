@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+form div span,
+form div input,
+form div textarea {
+  width: 100%;
+}
+
+form div input,
+form div textarea {
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  outline: none;
+}
+
+.ItensForm {
+  background-color: #7872E6;
+}
+
+.ItensForm form {
+  padding: 60px 20px;
+  max-width: 50%;
+}
+
+.titleForm {
+  text-align: center;
+  color: #fff;
+  display: block;
+}
