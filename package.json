@@ -2,7 +2,7 @@
   "name": "node",
   "version": "1.0.0",
   "description": "BackEnd portifolio react",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {},
   "author": "Gabriel",
   "license": "MIT",
