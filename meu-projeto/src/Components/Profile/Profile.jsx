@@ -6,8 +6,10 @@ function Profile() {
   return (
     <section className="" id="home">
       <div className="prof space">
-        <div className="img-prof">
-          <img src={ProfileX} alt="a" />
+        <div className="box">
+          <div className="img-prof content">
+            <img src={ProfileX} alt="a" />
+          </div>
         </div>
         <div className="prof-items">
           <div className="prof-info">

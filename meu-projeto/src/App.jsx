@@ -7,8 +7,7 @@ import Form from './Components/Form/Form'
 import FixWpp from './Components/FixWpp/FixWpp'
 
 import './App.css'
-import TesteForm from './Components/TesteForm/TesteForm'
-// Impotando CSS para usar na pagina
+
 
 const sections = 
     document.querySelectorAll("section"),
@@ -52,7 +51,6 @@ function App() {
       <College/>
       <Form/>
       <FixWpp/>
-      <TesteForm/>
     </div>
   )
 }

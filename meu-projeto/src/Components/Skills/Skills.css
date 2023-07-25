@@ -94,3 +94,21 @@ details[open] > summary:first-of-type {
 .CSharp:hover span {
   display: block;
 }
+
+/*Teste*/
+
+.greeting {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.tagline {
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+.topics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative; width: 100%;
+}
