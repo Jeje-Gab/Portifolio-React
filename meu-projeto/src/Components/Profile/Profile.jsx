@@ -1,21 +1,32 @@
 import React, { useState } from 'react'
 import './Profile.css'
-import ProfileX from '../../assets/Img/profile.png'
+import ProfileX from '../../assets/Img/profile_molde.png'
+import Points from '../../assets/Img/points_colors.png'
 
 function Profile() {
   return (
-    <section className="" id="home">
+    <section className="sec-prof" id="home">
       <div className="prof space">
-        <div className="box">
-          <div className="img-prof content">
-            <img src={ProfileX} alt="a" />
+        <div className="image">
+          <div className="image-bord">
+            <img src={ProfileX} alt="profile" />
+            <div className="card-yw">
+              <span>
+                <img src={Points} alt="points colors" />
+              </span>
+              <div>
+                <p>Bem Vindo</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="prof-items">
           <div className="prof-info">
-            <h1>Gabriel de Jesus</h1>
-            <h2>Chapecó - SC</h2>
-            <p>Me chamo gabriel tenho 21 anos de idade, conheci a programação atravéz do IFSC, o qual me auxiliou em minhas primeiras experiencias profissionais</p>
+            <h1>Dev. FullStack</h1>
+            <p>
+              Me chamo gabriel tenho 21 anos de idade, conheci a programação atravéz do IFSC, 
+              o qual me auxiliou em minhas primeiras experiencias profissionais
+            </p>
           </div>
         </div>
       </div>

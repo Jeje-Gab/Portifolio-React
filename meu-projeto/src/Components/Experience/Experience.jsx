@@ -1,12 +1,37 @@
 import React, { useState } from 'react'
 import './Experience.css'
+import Points from '../../assets/Img/points_colors.png'
+import old_pc from '../../assets/Img/old_pc.png'
 
 function Experience() {
   return (
     <section className="" id="experience">
+      <div className="base-title">
+        <div className="exp-title">
+          <h1>Experiencias</h1>
+        </div>
+      </div>
       <div className="ItensExp space">
         <div>
           <div className="BoxExp">
+
+            <div className="flex-exp-card">
+              <div className="image-to-exp">
+                <img src={old_pc} alt="" />
+              </div>
+              <div className="card-exp">
+                <span>
+                  <img src={Points} alt="points colors" />
+                </span>
+                <div>
+                  <p>Analista de Desenvolvimento</p>
+                  <p>TOTVS - Set de 2023 - Atual</p>
+                  <button href="/">Mais detalhes</button>
+                </div>
+              </div>
+            </div>
+
+
               <div className="Exp">
                   <p>2021-2021 </p>
                   <p>Controller LTDA</p>

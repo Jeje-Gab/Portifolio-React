@@ -1,3 +1,30 @@
+.experience {
+
+}
+
+.base-title {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-title {
+    max-width: 400px;
+    background: #E4FBFF;
+    border: 1px solid #1D3642;
+    min-height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    min-width: 400px;
+    left: -10px;
+}
+
 .ItensExp {
     display: flex;
     justify-content: center;
@@ -10,6 +37,77 @@
 
 .BoxExp {
 
+}
+
+.flex-exp-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-to-exp{
+    max-width: 10rem;
+}
+
+.card-exp {
+    background: #FFDDEF;
+    height: 13em;
+    width: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #1D3642;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+}
+
+.card-exp span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1px 0;
+    width: 100%;
+    height: 20px;
+    background: #8C52FF;
+    border-bottom: 1px solid #1D3642;
+}
+
+.card-exp div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-exp div p,
+.card-exp div button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-exp div button {
+    width: 7rem;
+    height: 3.5rem;
+    cursor: pointer;
+    border: solid 0.15rem black;
+    box-shadow: 
+        1rem 1rem 0 -0.1rem #ceeef8,
+        1rem 1rem 0 0 black;
+    transition: 0.3s;
+}
+
+.card-exp div button:hover {
+    box-shadow: 
+        0.5rem 0.5rem 0 -0.1rem #ceeef8,
+        0.5rem 0.5rem 0 0 black;
+    transition: 0.3s;
+}
+
+.card-exp img {
+    width: auto;
+    padding-left: 5px;
+    height: 100%;
 }
 
 .Exp {

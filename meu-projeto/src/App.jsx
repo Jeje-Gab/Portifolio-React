@@ -1,10 +1,13 @@
-import Navbar from './Components/Navbar/Navbar'
 import Profile from './Components/Profile/Profile'
+
+import Navbar from './Components/Navbar/Navbar'
+
 import Experience from './Components/Experience/Experience'
 import Skills from './Components/Skills/Skills'
 import College from './Components/College/College'
 import Form from './Components/Form/Form'
 import FixWpp from './Components/FixWpp/FixWpp'
+
 
 import './App.css'
 
@@ -43,14 +46,25 @@ document.addEventListener("scroll", handleScroll);
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Navbar />
-      <Profile />
-      <Experience/>
-      <Skills/>
-      <College/>
+      <div className="profine-sec">
+        <div className="container">
+          <Profile/>
+        </div>
+      </div>
+      <div className="experience-sec">
+        <div className="container">
+          <Experience/>
+        </div>
+      </div>
+      <div className="container">
+        
+        <Skills/>
+        <College/>
+        <FixWpp/>
+      </div>
       <Form/>
-      <FixWpp/>
     </div>
   )
 }
