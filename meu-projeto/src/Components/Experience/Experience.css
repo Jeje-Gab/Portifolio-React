@@ -33,6 +33,7 @@
 
 .ItensExp > div {
     text-align: center;
+    width: 100%;
 }
 
 .BoxExp {
@@ -44,6 +45,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 .image-to-exp{
@@ -90,6 +92,7 @@
     width: 7rem;
     height: 3.5rem;
     cursor: pointer;
+    margin-bottom: 25px;
     border: solid 0.15rem black;
     box-shadow: 
         1rem 1rem 0 -0.1rem #ceeef8,

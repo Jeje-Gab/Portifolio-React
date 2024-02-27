@@ -70,6 +70,20 @@ nav a.active {
   color: red;
 }
 
+.profine-sec {
+  min-height: 100vh;
+}
+
 .experience-sec {
   background-color: #FF7DB4;
+  min-height: 100vh;
+}
+
+.college-sec {
+  background-color: #F6EED9;
+  min-height: 100vh;
+}
+
+.skils-sec {
+  min-height: 100vh;
 }

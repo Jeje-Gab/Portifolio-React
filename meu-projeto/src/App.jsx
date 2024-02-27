@@ -58,10 +58,20 @@ function App() {
           <Experience/>
         </div>
       </div>
+      <div className="college-sec">
+        <div className="container">
+          <College/>
+        </div>
+      </div>
+      <div className="skils-sec">
+        <div className="container">
+          <Skills/>
+        </div>
+      </div>
       <div className="container">
         
-        <Skills/>
-        <College/>
+        
+        
         <FixWpp/>
       </div>
       <Form/>

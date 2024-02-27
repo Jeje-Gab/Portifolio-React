@@ -27,6 +27,9 @@ function Profile() {
               Me chamo gabriel tenho 21 anos de idade, conheci a programação atravéz do IFSC, 
               o qual me auxiliou em minhas primeiras experiencias profissionais
             </p>
+            <div>
+              Rede Sociais
+            </div>
           </div>
         </div>
       </div>

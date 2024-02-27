@@ -31,28 +31,53 @@ function Experience() {
               </div>
             </div>
 
+            <div className="flex-exp-card">
+              <div className="card-exp">
+                <span>
+                  <img src={Points} alt="points colors" />
+                </span>
+                <div>
+                  <p>Programador de Sistemas</p>
+                  <p>Unimed - Jun de 2022 - Out de 2023</p>
+                  <button href="/">Mais detalhes</button>
+                </div>
+              </div>
+              <div className="image-to-exp">
+                <img src={old_pc} alt="" />
+              </div>
+            </div>
 
-              <div className="Exp">
-                  <p>2021-2021 </p>
-                  <p>Controller LTDA</p>
-                  <p>Atuei como auxiliar administrativo</p>
+            <div className="flex-exp-card">
+              <div className="image-to-exp">
+                <img src={old_pc} alt="" />
               </div>
-              <div className="Exp">
-                  <p>2021-2022 </p>
-                  <p>Uceff</p>
-                  <p>Atuei como auxiliar Administrativo/Web Designer/ Suporte para sistemas em gerais: Moodle, OpaSuite entre outros...</p>
+              <div className="card-exp">
+                <span>
+                  <img src={Points} alt="points colors" />
+                </span>
+                <div>
+                  <p>Desenvolvedor Web Junior</p>
+                  <p>Elo Ideias - Ago de 2021 - Jun de 2022</p>
+                  <button href="/">Mais detalhes</button>
+                </div>
               </div>
-              <div className="Exp">
-                  <p>2021-2021 </p>
-                  <p>Elo Ideias</p>
-                  <p>Atuei como Desenvolvedor Front-End, trabalhando como JS, Bootstrap, CSS3, Sass, html5</p>
+            </div>
+
+            <div className="flex-exp-card">
+              <div className="card-exp">
+                <span>
+                  <img src={Points} alt="points colors" />
+                </span>
+                <div>
+                  <p>Analista de Suporte</p>
+                  <p>UCEFF - Out de 2020 - Ago de 2021</p>
+                  <button href="/">Mais detalhes</button>
+                </div>
               </div>
-              <div className="Exp">
-                  <p>2022-Atual </p>
-                  <p>Atuando como Programador de Sistemas, onde se é trabalhado com fluxos nos sistemas MV 
-                  software de gestão de saúde, rotinas de banco com Oracle DataBase.
-                  </p>
+              <div className="image-to-exp">
+                <img src={old_pc} alt="" />
               </div>
+            </div>
           </div>
         </div>
       </div>
