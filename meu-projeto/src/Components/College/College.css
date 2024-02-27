@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.TitleCollege h1{
+.TitleCollege h1 {
   color: #7872E6;
 }
 
@@ -23,7 +23,6 @@
 
 
 .base-title {
-  height: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -74,8 +73,12 @@
   padding: 2rem 1rem;
   color: #e8f0f2;
   border-radius: 2rem;
+  background: rgb(27, 44, 95);
+  background: linear-gradient(34deg, rgba(27, 44, 95, 1) 0%, rgba(52, 27, 95, 1) 35%, rgba(68, 130, 203, 1) 100%);
+}
 
-  @media (max-width: 769px) {
+@media(max-width: 769px) {
+  .Tabs {
     padding: 2rem 0;
   }
 }
@@ -97,13 +100,15 @@ ul.nav {
 
 ul.nav li {
   width: 50%;
-  padding: 1rem;
+  padding: 0.2rem;
   list-style: none;
   text-align: center;
   cursor: pointer;
   transition: all 0.7s;
   border-bottom-left-radius: 2rem;
   border-top-left-radius: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 ul.nav li:nth-child(2) {

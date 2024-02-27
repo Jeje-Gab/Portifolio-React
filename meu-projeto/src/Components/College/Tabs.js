@@ -20,13 +20,13 @@ const Tabs = () => {
           className={activeTab === "tab1" ? "active" : ""}
           onClick={handleTab1}
         >
-          Tab 1
+          Engenharia da Computação
         </li>
         <li
           className={activeTab === "tab2" ? "active" : ""}
           onClick={handleTab2}
         >
-          Tab 2
+          Tecnico em Informatica
         </li>
       </ul>
       <div className="outlet">

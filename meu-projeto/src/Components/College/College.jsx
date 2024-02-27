@@ -8,9 +8,9 @@ function College() {
       <div className="base-title">
         <div className="college-title">
           <h1>Formação</h1>
-            <Tabs/>
         </div>
       </div>
+      <Tabs />
     </section>
   )
 }
